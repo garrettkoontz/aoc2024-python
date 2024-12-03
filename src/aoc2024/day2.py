@@ -61,9 +61,9 @@ def part2():
 # 604 too low, but probably close
 # 608 too low
 
-def __init__():
+def main():
     print(part1())
     print(part2())
 
-
-__init__()
+if __name__ == '__main__':
+    main()

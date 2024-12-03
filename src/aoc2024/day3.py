@@ -30,9 +30,9 @@ def part2():
             r += int(m[0]) * int(m[1])
     return r
 
-def __init__():
+def main():
     print(part1())
     print(part2())
 
-
-__init__()
+if __name__ == '__main__':
+    main()

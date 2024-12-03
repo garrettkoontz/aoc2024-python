@@ -35,8 +35,9 @@ def part2():
             d[i] = 1
     return sum([j * d[j] for j in a if j in d])
 
-def __init__():
+def main():
     print(part1())
     print(part2())
 
-__init__()
+if __name__ == '__main__':
+    main()
